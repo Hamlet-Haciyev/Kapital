@@ -59,7 +59,14 @@
                     <input type="text" class="cstable__input" value="100" />
                     <div
                       class="position-absolute position-right-0 position-top-0 h-100 d-flex align-items-center custom-input mr-5"
-                    ></div>
+                      style="right: 10px; top: 0"
+                    >
+                      <select name="currSelect" id="currSelect">
+                        <option value="1.0">AZN</option>
+                        <option value="1.9">EUR</option>
+                        <option value="1.7">USD</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
                 <div class="pt-10"></div>
@@ -70,13 +77,13 @@
               </div>
               <table class="table CustomTable--white-border CustomTable mb-0">
                 <tbody>
-                  <tr>
-                    <td class="text-dark-gray font-24 font-s-light">117.51</td>
-                    <td class="text-dark-gray font-24 font-s-light">USD</td>
+                  <tr class="currRow1">
+                    <td class="">117.51</td>
+                    <td class="curr1">USD</td>
                   </tr>
-                  <tr>
-                    <td class="text-dark-gray font-24 font-s-light">110.65</td>
-                    <td class="text-dark-gray font-24 font-s-light">EUR</td>
+                  <tr class="currRow2">
+                    <td class="">110.65</td>
+                    <td class="curr2">EUR</td>
                   </tr>
                 </tbody>
               </table>
